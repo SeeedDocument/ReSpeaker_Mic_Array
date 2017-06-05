@@ -64,6 +64,11 @@ The ReSpeaker Mic Array can be stacked (connected) right onto the top of ReSpeak
 - Weight: 
   - 15.25g
 
+## Driver for ReSpeaker Mic Array
+
+- For Windows Users, click [here](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver) to install the driver
+- For Linux or Mac Users, don't need to install the driver
+
 ## Extract voice with ReSpeaker Core 
 
 When Mic Array is stacked on ReSpeaker Core,  it will be detected(check with `aplay -l`) automatically. And we recommand that you could using our [respeaker\_python\_library](https://github.com/respeaker/respeaker_python_library) to develop your speech interaction application so that you don't need to care about if the Mic Array is on or not. Our library will check this and choose Mic Array when it is on.
@@ -237,7 +242,7 @@ if __name__ == '__main__':
 
   When using Windows, follow the [guide](https://github.com/respeaker/get_started_with_respeaker/wiki/Mic-Array) or use our [HID tool](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool).
 
-  Python & C hidapi examples are [here](https://github.com/elthef/respeaker-xmos-hid)
+  Python & C hidapi examples are [here](https://github.com/elthef/respeaker-xmos-hid)
 
 ## Resources
 
