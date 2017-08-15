@@ -22,7 +22,7 @@ import wave
 
 # Finally, terminate the portaudio session using pyaudio.PyAudio.terminate() (5)
 RESPEAKER_RATE = 16000
-RESPEAKER_CHANNELS = 8
+RESPEAKER_CHANNELS = 2
 RESPEAKER_WIDTH = 2
 # run getDeviceInfo.py to get index
 RESPEAKER_INDEX = 2
